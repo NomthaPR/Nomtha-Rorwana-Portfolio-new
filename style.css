@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     padding: 35px 12%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(68, 67, 68, 0.8);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,7 @@
 }
 .logo{
     font-size: 25px;
-    color: rgb(139, 11, 139);
+    color: rgb(139, 33, 122);
     font-weight: 600;
     transition: 0.3s ease;
     padding-right: 8%;
@@ -71,7 +71,14 @@ span{
 .Intro{
     width: 100%;
     min-height: 100vh;
-    background: rgb(61, 51, 60);
+    background-image: url(pictures/5096154.jpg),
+    radial-gradient(#a19f9f, #5a5656);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
     display: flex;
     align-items: center;
     gap: 7em;
@@ -160,7 +167,14 @@ span{
     align-items: center;
     padding: 12% 8%;
     gap: 10em;
-    background: rgb(48, 28, 44);
+    background-image: url(pictures/5096154.jpg),
+    radial-gradient(#a19f9f, #5a5656);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
 }
 .about-img img{
     position: relative;
@@ -192,6 +206,17 @@ span{
     font-size: 25px;
 }
 
+.contact-form{
+    background-image: url(pictures/5096154.jpg),
+    radial-gradient(#a19f9f, #5a5656);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    padding-left: 10px;
+}
 .contact-form form{
     max-width: 50em;
     margin: 1em auto;
@@ -227,7 +252,7 @@ span{
     font-size: 16px;
     text-align: center;
     border-radius: 50%;
-    margin: 30px;
+    margin: 10px;
 
 
 }
@@ -240,20 +265,94 @@ span{
     text-align: center;
     background: rgba(61, 41, 58, 0.8);
     color: aliceblue;
+    margin-top: 40px;
     
 }
 
 .Company img{
     height: 65px;
     width: 65px;
+    border-radius: 40px;
 }
 
 .companies h3{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.2;
-    color:  rgb(207, 184, 205);
+    color:  rgb(255, 255, 255);
     margin: 10px;
-    align-items: center;
+    text-align: center;
+    padding-right: 120px;
+
+}
+
+/*----------------------------------Not on html-------------------------*/
+.my-work{
+    width: 100%;
+    background-image: url(pictures/5096154.jpg),
+    radial-gradient(#a19f9f, #5a5656);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    gap: 7em;
+}
+
+.my-work h2{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tab-tittles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 250px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    text-shadow: 0 0 25px rgb(124, 41, 110),
+                 0 0 50px rgb(255, 255, 255);
+    transform: scale(1.5);
+    border-bottom: 2px solid rgb(255, 249, 254);
+    margin-bottom: 100px;
+}
+
+.tab-tittles{
+    padding-left: 250px;
+    padding-top: 35px;
+}
+
+.Services{
+    padding: 50px 0;
+    background-image: url(pictures/5096154.jpg),
+    radial-gradient(#a19f9f, #5a5656);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    gap: 7em;
+    color: rgb(235, 235, 235);
+}
+
+.Sevices-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid: gap 40px;
+    margin-top: 50px;
+}
+
+.container{
+    margin-left: 50px;
+    padding-inline: 50px;
 }
 
 /*----------------------------------the start of the footer----------*/
